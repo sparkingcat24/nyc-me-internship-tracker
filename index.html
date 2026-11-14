@@ -4,21 +4,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f4f1ea" />
-  <meta name="description" content="A personal tracker for NYC mechanical engineering internships in Spring and Summer 2027." />
-  <title>NYC ME Internship Tracker</title>
+  <meta name="description" content="A personal tracker for mechanical engineering internships across agencies, infrastructure, buildings, and aerospace." />
+  <title>Mechanical Engineering Internship Tracker</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="NYC ME Internship Tracker home"><span class="brand-mark">NY</span><span>FIELDNOTES <b>/ CAREERS</b></span></a>
-    <div class="top-actions"><span class="save-state" id="saveState">Saved in this browser</span><button class="button button-quiet" id="exportBtn">Export backup</button><button class="button button-primary" id="addRoleBtn">＋ Add opportunity</button></div>
+    <a class="brand" href="#top" aria-label="Mechanical Engineering Internship Tracker home"><span>FIELDNOTES <b>/ CAREERS</b></span></a>
+    <div class="top-actions"><span class="save-state" id="saveState">Personal • this browser</span><button class="button button-quiet" id="exportBtn">Export backup</button><button class="button button-primary" id="addRoleBtn">＋ Add to my tracker</button></div>
   </header>
 
   <main id="top" class="shell">
     <section class="intro">
-      <div class="eyebrow"><span class="live-dot"></span> PERSONAL SEARCH / NEW YORK CITY</div>
-      <h1>Find the work that<br /><em>moves the city.</em></h1>
-      <p class="intro-copy">Mechanical engineering internships across public agencies. Keep the leads, deadlines, and application notes in one place.</p>
+      <div class="eyebrow"><span class="live-dot"></span> PERSONAL SEARCH / 2027 INTERNSHIPS</div>
+      <h1>Find the work that<br /><em>moves what’s next.</em></h1>
+      <p class="intro-copy">Mechanical engineering internships across public agencies and companies, from HVAC and infrastructure to aerospace. Use the NYC location filter if you want to stay in the city.</p>
       <div class="intro-meta"><span>SEARCH WINDOW <b>2027</b></span><span class="meta-divider"></span><span>LAST REVIEW <b id="lastReview">—</b></span><button id="reviewBtn" class="text-button">Mark checked today ↗</button></div>
     </section>
 
@@ -60,7 +60,7 @@
         <a href="https://www.nyc.gov/html/dot/html/about/employ.shtml" target="_blank" rel="noreferrer"><span class="agency-symbol">D</span><span><b>NYC DOT Employment</b><small>Internship and college aide inquiries</small></span><span class="arrow">↗</span></a>
         <a href="https://nysinternships.cs.ny.gov/nnyl/" target="_blank" rel="noreferrer"><span class="agency-symbol">NY</span><span><b>New NY Leaders</b><small>New York State internship portal</small></span><span class="arrow">↗</span></a>
       </div></article>
-      <article class="notes-card"><div class="eyebrow">KEEP YOUR DATA</div><h2>Your tracker, your browser.</h2><p>Roles and saved searches are stored locally on this device. Export a JSON backup before switching browsers or clearing site data.</p><button id="importBtn" class="button button-outline">Import backup</button><input type="file" id="importFile" accept="application/json,.json" hidden /><p class="small-note">Official links and source details remain editable on every role.</p></article>
+      <article class="notes-card"><div class="eyebrow">KEEP YOUR DATA</div><h2>Your tracker, your browser.</h2><p>There is no shared submission board: opportunities you add or edit are saved only in your browser and are not visible to other visitors. Export a JSON backup before switching browsers or clearing site data.</p><button id="importBtn" class="button button-outline">Import backup</button><input type="file" id="importFile" accept="application/json,.json" hidden /><p class="small-note">No login or cross-device sync is configured yet. Official links and source details remain editable on every role.</p></article>
     </section>
     <footer><span>PERSONAL SEARCH TOOL • SPRING + SUMMER 2027</span><span>Keep checking the source. Postings can change without notice.</span></footer>
   </main>

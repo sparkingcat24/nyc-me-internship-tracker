@@ -71,7 +71,7 @@
   let compareIds=[];
   let toastTimer;
 
-  const persist = () => { data.lastReview=data.lastReview||TODAY; localStorage.setItem(STORE,JSON.stringify(data)); $('#saveState').textContent='Saved just now'; setTimeout(()=>$('#saveState').textContent='Saved in this browser',1300); render(); };
+  const persist = () => { data.lastReview=data.lastReview||TODAY; localStorage.setItem(STORE,JSON.stringify(data)); $('#saveState').textContent='Personal data saved'; setTimeout(()=>$('#saveState').textContent='Personal • this browser',1300); render(); };
   function toast(message){ const el=$('#toast');el.textContent=message;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2300); }
   function flags(role){const d=daysUntil(role.deadline);return {newPost:postedRecently(role),soon:d!==null&&d>=0&&d<=14,days:d};}
   function currentRoles(){

@@ -18,7 +18,7 @@
     <section class="intro">
       <div class="eyebrow"><span class="live-dot"></span> PERSONAL SEARCH / 2027 OPPORTUNITIES</div>
       <h1>Find the work that<br /><em>moves what’s next.</em></h1>
-      <p class="intro-copy">Mechanical engineering internships and career opportunities across public agencies and companies, from HVAC and infrastructure to aerospace. Use the NYC location filter if you want to stay in the city.</p>
+      <p class="intro-copy">Mechanical engineering internships and career opportunities across public agencies and companies, from HVAC and infrastructure to aerospace, medical devices, and biotech manufacturing. Use the NYC location filter if you want to stay in the city.</p>
       <div class="intro-meta"><span>SEARCH WINDOW <b>2027</b></span><span class="meta-divider"></span><span>LAST REVIEW <b id="lastReview">—</b></span><button id="reviewBtn" class="text-button">Mark checked today ↗</button></div>
     </section>
 
@@ -43,7 +43,7 @@
           <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search agency, title, skills…" /></label>
           <label class="select-wrap"><span>STATUS</span><select id="statusFilter"><option value="all">All statuses</option><option>To review</option><option>Interested</option><option>Preparing</option><option>Applied</option><option>Interviewing</option><option>Offer</option><option>Closed</option></select></label>
           <label class="select-wrap"><span>ME UNDERGRAD FIT</span><select id="fitFilter"><option value="all">All, including unknown</option><option value="yes">Confirmed fit</option><option value="unknown">Needs checking</option><option value="no">Not eligible</option></select></label>
-          <label class="select-wrap"><span>SUBCATEGORY</span><select id="categoryFilter"><option value="all">All areas</option><option>Aerospace</option><option>Automotive</option><option>Asset Management / Data</option><option>Commissioning</option><option>Construction / Fieldwork</option><option>Energy / Utilities</option><option>Environmental / Water</option><option>Fieldwork / Test</option><option>General Engineering</option><option>HVAC / Building Systems</option><option>Manufacturing</option><option>Mechanical Design</option><option>MEP Design</option><option>Propulsion</option><option>Structures</option><option>Systems / Integration</option><option>Transportation Infrastructure</option></select></label>
+          <label class="select-wrap"><span>SUBCATEGORY</span><select id="categoryFilter"><option value="all">All areas</option><option>Aerospace</option><option>Automotive</option><option>Biotech / Biomedical Engineering</option><option>Asset Management / Data</option><option>Commissioning</option><option>Construction / Fieldwork</option><option>Energy / Utilities</option><option>Environmental / Water</option><option>Fieldwork / Test</option><option>General Engineering</option><option>HVAC / Building Systems</option><option>Manufacturing</option><option>Mechanical Design</option><option>Product Design / Development</option><option>MEP Design</option><option>Propulsion</option><option>Structures</option><option>Systems / Integration</option><option>Transportation Infrastructure</option></select></label>
           <label class="select-wrap"><span>SORT</span><select id="sortFilter"><option value="deadline">Deadline: soonest</option><option value="posted">Newest posting</option><option value="agency">Agency A–Z</option><option value="category">Subcategory A–Z</option><option value="updated">Recently updated</option></select></label>
         </div>
         <div class="filter-bottom"><label class="check-label"><input id="nycOnly" type="checkbox" /><span class="check-custom"></span> NYC location</label><label class="check-label"><input id="showNew" type="checkbox" /><span class="check-custom"></span> Newly posted</label><label class="check-label"><input id="showSoon" type="checkbox" /><span class="check-custom"></span> Deadline approaching</label><button class="text-button reset-button" id="resetFilters">Reset filters</button><button class="text-button saved-button" id="saveSearchBtn">☆ Save this search</button><div class="saved-search-wrap"><select id="savedSearches" aria-label="Saved searches"><option value="">Saved searches…</option></select></div></div>
@@ -74,6 +74,6 @@
 
   <dialog id="compareDialog" class="modal compare-modal"><div class="modal-head"><div><div class="eyebrow">SIDE-BY-SIDE</div><h2>Compare opportunities</h2></div><button type="button" class="icon-button" id="closeCompare" aria-label="Close">×</button></div><div id="compareBody"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="app.js?v=20261115-tabs-runtime-fix"></script>
+  <script src="app.js?v=20261115-biomedical"></script>
 </body>
 </html>
